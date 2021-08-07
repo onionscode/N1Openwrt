@@ -33,6 +33,10 @@ popd
 mkdir package/community
 pushd package/community
 
+#echo '    git clone jd_openwrt_script'
+git clone --depth=1 https://github.com/ITdesk01/jd_openwrt_script.git 
+
+
 #echo '网易云音乐'
 #git clone  --depth=1 https://github.com/project-openwrt/luci-app-unblockneteasemusic.git 
 
