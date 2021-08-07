@@ -5,11 +5,9 @@ N1 OpenWrt.
 [![N1 Multiple Version](https://github.com/mingxiaoyu/N1Openwrt/actions/workflows/N1_Multi.yml/badge.svg)](https://github.com/mingxiaoyu/N1Openwrt/actions/workflows/N1_Multi.yml)
 
 
-# 喜欢的可以给个star。要自己编译独一无二的可以fork。如果有人要贝壳云等其他的，可以提issue。我就加上去。再次感谢各位。
 
 默认自定义防火墙: iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 
-~~每三天自动编译一次~~
 
 # 如何使用
 1. fork项目
@@ -24,31 +22,9 @@ N1 OpenWrt.
 ## 用户名和密码
  * User: root
  * Password: password
- * Default IP: 192.168.32.2
+ * Default IP: 192.168.10.2
 ------
 
-## app list:（mini 图不代表最新的）
- * UU网游加速器
- * jd-dailybonus
- * ssr+
- * ServerChan
- * unblockmusic
- * aria2
- * ddns
- * samba4
- * KMS 
- * frp
- * docker
- * cifs(挂载 SMB/CIFS 网络共享文件夹)
- * vsftpd
- * usb_printer
- * zerotier
- * flowoffload
- * WIFI
- 
- ![applist](https://github.com/mingxiaoyu/N1Openwrt/blob/master/imgs/mini.jpg?raw=true)
- 
- ------
  # N1 U盘写入刷emmc
 ```
 cd      /root
@@ -70,6 +46,8 @@ chmod   755  update-amlogic-openwrt.sh
  # 感激 
  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)提供的脚本参考
  
+Fork 自 https://github.com/mingxiaoyu/N1Openwrt
+
  ## 云编译的规格
 https://docs.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners#supported-runners-and-hardware-resources
 
