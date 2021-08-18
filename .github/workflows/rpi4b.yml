@@ -24,7 +24,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: false
+  UPLOAD_RELEASE: true
 
 jobs:
   build:
