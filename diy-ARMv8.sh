@@ -27,6 +27,9 @@ sed -i 's/services/system/g' package/lean/luci-app-cpufreq/luasrc/controller/cpu
 sed -i 's#luci-theme-bootstrap#luci-theme-opentomcat#g' feeds/luci/collections/luci/Makefile
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 
+#echo '    git clone jd_openwrt_script'
+git clone https://github.com/ITdesk01/jd_openwrt_script.git package/jd_openwrt_script
+
 # Add additional packages
 git clone https://github.com/fw876/helloworld.git package/helloworld
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
