@@ -27,7 +27,7 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 #git submodule add https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/others/luci-theme-infinityfreedom
 #git submodule add https://github.com/garypang13/luci-app-eqos.git package/others/luci-app-eqos
 #git submodule add https://github.com/lisaac/luci-app-dockerman.git package/others/luci-app-dockerman
-svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/others/luci-app-amlogic
+#svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/others/luci-app-amlogic
 
 #echo '    git clone jd_openwrt_script'
 git clone --depth=1 https://github.com/ITdesk01/jd_openwrt_script.git package/community
