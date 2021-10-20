@@ -20,9 +20,15 @@ N1 OpenWrt.
 ------
 
 ## 用户名和密码
+N1:
  * User: root
  * Password: password
  * Default IP: 192.168.10.2
+
+ X86:
+  * User: root
+ * Password: password
+ * Default IP: 192.168.1.1
 ------
 
  # N1 U盘写入刷emmc
